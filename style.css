@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.flex{
+	display: flex;
+}
+.f-column{
+	flex-direction: column;
+}
+.f-row{
+	flex-direction: row;
+}
+.main-wrapper{
+	width: 70%;
+	height: auto;
+	margin: auto;
+}
+header{
+	justify-content: end;
+	padding: 50px 100px;
+}
+.menu{
+	width: 30%;
+	gap: 50px;
+	color: black;
+}
+section{
+	width: 100%;
+	height: auto;
+}
+.about{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.about-line{
+	width: 100%;
+	height: 20px;
+	background-color: rgb(183, 183, 183);
+}
+.about-wrapper{
+	justify-content: space-between;
+
+}
+.about-info{
+	width: 70%;
+}
+.about-info h5{
+	font-weight: 600;
+}
+.avatar{
+	width: 150px;
+	height: 147px;
+}
+.avatar img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+section .about .button .btn{
+	text-transform: none;
+}
+.posts{
+	width: 100%;
+	height: auto;
+	background-color: azure;
+}
+.posts > p{
+	width: 68%;
+	margin: auto;
+	font-weight: 600;
+}
+.posts-wrapper{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	
+}
+.posts-card{
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px;
+}
+.posts-card h6{
+	font-weight: 700;
+	cursor: pointer;
+}
+.posts-card p span:nth-child(1){
+	border-right: 1px  solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.cards > p{
+	width: 68%;
+	margin: 15px auto 30px;
+	font-weight: 600;
+}
+.cards{
+	width: 100%;
+	height: auto;
+
+}
+.cards-wrapper{
+	width: 68%;
+	height: auto;
+	margin: auto;
+	box-shadow: none;
+}
+.card{
+	border-bottom: 1px solid grey;
+	
+}
+.card-img{
+	width: 35%;
+	height: auto;
+	margin-right: 20px;
+}
+.card-img img{
+	width: 250px;
+	height: 160px;
+	border-radius: 5%;
+	cursor: pointer;
+}
+.card-info{
+	width: 60%;
+	height: 160px;
+}
+.card-info h6{
+	font-weight: 700;
+	cursor: pointer;
+}
+.card-info p span:nth-child(1){
+	border-radius: 60%;
+	padding: 3px 10px;
+	margin-right: 30px;
+	background-color: #0b0b3d ;
+	color: #fff;
+}
+.card-info p span:nth-child(2){
+	color: grey;
+}
+section .cards .cards-wrapper .card{
+	box-shadow: none;
+	padding-bottom: 20px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.social{
+	margin-top: 100px;
+	width: 60%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.social a img{
+	width: 25px;
+	height: auto;
+}
+.copyright{
+	justify-content: center;
+	font-size: small;
+	color: grey;
+}
+.social a img:hover{
+	filter:contrast(10%)
+}
+.menu li a:hover{
+	text-decoration: underline grey;
+}

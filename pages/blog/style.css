@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.flex{
+	display: flex;
+}
+.f-column{
+	flex-direction: column;
+}
+.f-row{
+	flex-direction: row;
+}
+.main-wrapper{
+	width: 70%;
+	height: auto;
+	margin: auto;
+}
+header{
+	justify-content: end;
+	padding: 50px 100px;
+}
+.menu{
+	width: 30%;
+	gap: 50px;
+	color: black;
+}
+section{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	justify-content: center;
+}
+.section-wrapper{
+	width: 70%;
+	height: auto;
+	margin: 50px auto;
+}
+section h4{
+	width: 68%;
+	margin: auto;
+	font-weight: 700;
+}
+.posts-card{
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px;
+	border-bottom: 1px solid grey;
+}
+.posts-card h6{
+	font-weight: 700;
+	cursor: pointer;
+}
+.posts-card p span:nth-child(1){
+	border-right: 1px  solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.posts-card p span:nth-child(2){
+	color: grey;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.social{
+	margin-top: 100px;
+	width: 60%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.social a img{
+	width: 25px;
+	height: auto;
+}
+.copyright{
+	justify-content: center;
+	font-size: small;
+	color: grey;
+}
+.social a img:hover{
+	filter:contrast(10%)
+}
+.menu li a:hover{
+	text-decoration: underline grey;
+}
